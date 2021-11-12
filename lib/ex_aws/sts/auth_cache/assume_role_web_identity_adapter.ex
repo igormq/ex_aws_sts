@@ -59,7 +59,8 @@ defmodule ExAws.STS.AuthCache.AssumeRoleWebIdentityAdapter do
       # necessary for now due to how ExAws.request() works
       access_key_id: "dummy",
       # necessary for now due to how ExAws.request() works
-      secret_access_key: "dummy"
+      secret_access_key: "dummy",
+      security_token: "dummy"
     }
   end
 
